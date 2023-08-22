@@ -1,5 +1,11 @@
 {
+  "name": "cypress-ui-testing",
+  "scripts": {
+    "html-reports": "cypress run --spec cypress/e2e/kasir-aja/allTesting.cy.js --browser chrome --headed"
+  },
   "devDependencies": {
-    "cypress": "^12.15.0"
+    "cypress": "^12.15.0",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "mocha-junit-reporter": "^2.2.1"
   }
 }
